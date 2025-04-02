@@ -1,9 +1,10 @@
 "use client";
+
 import { useState } from "react";
 import { Mail, Lock} from "lucide-react";
 import { useRouter } from "next/navigation";
 
-export default function RegisterPage() {
+export default function PageLogin() {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   const router = useRouter();

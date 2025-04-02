@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Mail, Lock, User } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-export default function RegisterPage() {
+export default function PageCadastro() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
