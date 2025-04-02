@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import QuestoesPopulares from "./components/QuestoesPopulares";
+import Footer from "./components/Footer";
 
 
 export default function HomePage() {
@@ -10,6 +11,8 @@ export default function HomePage() {
       <Navbar />
       <Header />
       <QuestoesPopulares />
+      <Footer />
+
     </div>
   );
 }
