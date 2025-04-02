@@ -16,7 +16,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex space-x-2">
-        <button className="bg-blue-600 px-3 py-1 rounded cursor-pointer">Perfil</button>
+        <button className="bg-red-600 px-3 py-1 rounded cursor-pointer">Perfil</button>
       </div>
       
     </nav>
